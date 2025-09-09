@@ -1,0 +1,99 @@
+<! DOCTYPE html>
+<html lang="en">
+<cabeza>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, escala inicial=1.0">
+    <título>Página de inicio de sesión moderna</título>
+    <estilo>
+        cuerpo {
+        margen: 0;
+        acolchado: 0;
+        font-family: 'Poppins', sans-serif;
+        altura: 100vh;
+        visualización: flex;
+        justificar-contenido: centro;
+        alinear artículos: centro;
+        fondo: url(' https://picsum.photos/1600/900?blur=5 ') centro/portada sin repetir;
+        }
+
+        . Contenedor de sesión {
+        fondo: rgba(255, 255, 255, 0,15);
+        filtro de fondo: blur (12px);
+        border-radius: 20px;
+        acolchado: 40px;
+        ancho: 350px;
+        alineación de texto: centro;
+        color: blanco;
+        caja-sombra: 0 8px 25px rgba(0, 0, 0, 0.3);
+        Animación: fadeIn 1.2s facilidad de entrada;
+        }
+
+        . Contenedor de sesión h2 {
+        abajo de margen: 20px;
+        Tamaño de fuente: 28px;
+        }
+
+        . Entrada de contenedor de inicio de sesión {
+        ancho: 100%;
+        acolchado: 12px;
+        margen: 12px 0;
+        borde: ninguno;
+        border-radius: 10px;
+        esquema: ninguno;
+        Tamaño de fuente: 16px;
+        }
+
+        . entrada de contenedor de sesión[type="texto"],
+        . Entrada de contenedor de inicio de sesión[type="contraseña"] {
+        fondo: rgba(255, 255, 255, 0.8);
+        }
+
+        . botón de contenedor de inicio de sesión {
+        ancho: 100%;
+        acolchado: 12px;
+        borde: ninguno;
+        border-radius: 10px;
+        fondo:gradiente lineal (135deg, #667eea, #764ba2);
+        color: blanco;
+        Tamaño de fuente: 18px;
+        cursor: puntero;
+        margen superior: 15px;
+        transición: 0.3s;
+        }
+
+        . botón de inicio de sesión-container: hover {
+        fondo:gradiente lineal (135deg, # 5563c1, # 5c3c8a);
+        }
+
+        . extra {
+        margen superior: 15px;
+        Tamaño de fuente: 14px;
+        }
+
+        . extra un {
+        color: #fff;
+        decoración de texto: ninguno;
+        Peso de la fuente: negrita;
+        }
+
+        @keyframes fadeIn {
+        de { opacidad: 0; transformar: traducirY(-30px); }
+        a { opacidad: 1; transformar: traducirY(0); }
+        }
+    </estilo>
+</cabeza>
+<cuerpo>
+    <div class="login-container">
+        <h2>Bienvenido de nuevo</h2>
+        <forma>
+            <input type="text" marcador de posición="nombre de usuario" requerido>
+            <input type="contraseña" comoholder="Contraseña" requerida>
+            <tipo de botón="enviar">Iniciar sesión</botón>
+        </forma>
+        <clase div="extra">
+            <p>¿Olvidaste tu contraseña? <a href="#">Reinicio</a></p>
+            <p>¿Nuevo aquí? <a href="#">Crear cuenta</a></p>
+    </div>
+    </div>
+</cuerpo>
+</html>
